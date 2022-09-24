@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: azure;
+}
+
+.app
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.app__left
+{
+    flex: 0.9;
+}
+
+@media(max-width:990px)
+{
+    .app
+    {
+        flex-direction: column;
+    }
+}
+
+.app__header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.app__stats
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__header>h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Temp Design for temp online site */
+.app__right
+{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3
+{
+    color: royalblue;
+}
+
+.h32
+{
+    color: crimson;
+    margin-top: 20px;
+}
+
+.app__header>h1
+{
+    color: orangered;
+}
+
+.app__left>p
+{
+    margin-top: 30px;
+    color: darkviolet;
+}
+
+@media(max-width:990px)
+{
+    .app__left>p
+    {
+        margin-left: 60px;
+        justify-content: center;
+    }
+}
